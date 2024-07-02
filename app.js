@@ -54,12 +54,12 @@ const disableboxes=()=>{
             box.innerText="";
         }};
         const showwin=()=>{
-            msg.innerText='congratulations winner is raj';
+            msg.innerText='congratulations winner is X';
             msgco.classList.remove("hide");
             disableboxes();
         };
         const show=()=>{
-            msg.innerText='congratulations winner is moon';
+            msg.innerText='congratulations winner is O';
             msgco.classList.remove("hide");
             disableboxes();
         };
